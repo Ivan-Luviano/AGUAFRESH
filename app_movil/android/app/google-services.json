@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1032349290901",
+    "project_id": "aguafresh-aced5",
+    "storage_bucket": "aguafresh-aced5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032349290901:android:343362f35182cef719669c",
+        "android_client_info": {
+          "package_name": "com.example.app_movil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1jF8n7fRnj0rX3KZUcW5uRAbU6tJpdTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
