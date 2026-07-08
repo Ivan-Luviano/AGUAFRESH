@@ -1,0 +1,92 @@
+.login-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at top left, rgba(20, 121, 246, 0.18), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(86, 200, 64, 0.18), transparent 35%),
+    var(--color-bg);
+}
+
+.login-card {
+  width: 420px;
+  background: var(--color-white);
+  padding: 42px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.login-logo {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.logo-circle {
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 12px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 36px;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+}
+
+.login-logo h1 {
+  color: var(--color-primary);
+  font-size: 30px;
+}
+
+.login-logo p {
+  color: var(--color-muted);
+}
+
+.login-form label {
+  display: block;
+  margin: 16px 0 8px;
+  font-weight: 600;
+}
+
+.input-group {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: white;
+}
+
+.input-group svg {
+  color: var(--color-primary);
+  font-size: 20px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+}
+
+.login-button {
+  width: 100%;
+  height: 54px;
+  margin-top: 26px;
+  border: none;
+  border-radius: var(--radius-md);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+}
+
+.forgot-button {
+  width: 100%;
+  margin-top: 18px;
+  border: none;
+  background: transparent;
+  color: var(--color-primary);
+  font-weight: 600;
+}

@@ -1,10 +1,7 @@
+import AppRouter from "./routes/AppRouter";
+
 function App() {
-  return (
-    <div>
-      <h1>AGUAFRESH</h1>
-      <p>Sistema Web Administrativo</p>
-    </div>
-  );
+  return <AppRouter />;
 }
 
 export default App;
