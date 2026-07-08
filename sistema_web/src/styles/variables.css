@@ -1,0 +1,19 @@
+:root {
+  --color-primary: #1479f6;
+  --color-secondary: #56c840;
+  --color-bg: #f5f9ff;
+  --color-white: #ffffff;
+  --color-text: #173b73;
+  --color-muted: #6b7a90;
+  --color-border: #e5eaf2;
+  --color-danger: #e53935;
+  --color-warning: #f9a825;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --shadow-card: 0 10px 25px rgba(20, 121, 246, 0.10);
+
+  --sidebar-width: 260px;
+}
