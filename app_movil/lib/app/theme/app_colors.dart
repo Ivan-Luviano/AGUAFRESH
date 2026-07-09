@@ -2,20 +2,30 @@ import 'package:flutter/material.dart';
 
 class AppColors {
   // Colores principales
-  static const Color primaryBlue = Color(0xFF1479F6);
-  static const Color primaryGreen = Color(0xFF56C840);
+  static const Color primaryBlue = Color(0xFF1E88E5);
+  static const Color primaryGreen = Color(0xFF43A047);
 
   // Fondo
-  static const Color background = Color(0xFFFFFFFF);
+  static const Color background = Color(0xFFF7FAFC);
 
-  // Textos
-  static const Color title = Color(0xFF173B73);
-  static const Color subtitle = Color(0xFF5C6B8A);
+  // Texto
+  static const Color textPrimary = Color(0xFF1F2937);
+  static const Color textSecondary = Color(0xFF6B7280);
 
-  // TextField
-  static const Color inputBorder = Color(0xFFE5EAF2);
+  // Bordes
+  static const Color inputBorder = Color(0xFFE5E7EB);
 
-  // Otros
+  // Colores de apoyo
   static const Color white = Colors.white;
   static const Color error = Color(0xFFE53935);
+
+  // Degradado principal
+  static const LinearGradient primaryGradient = LinearGradient(
+    colors: [
+      primaryBlue,
+      primaryGreen,
+    ],
+    begin: Alignment.centerLeft,
+    end: Alignment.centerRight,
+  );
 }

@@ -15,6 +15,31 @@ class AppTheme {
 
     textTheme: GoogleFonts.poppinsTextTheme(),
 
+    appBarTheme: const AppBarTheme(
+      backgroundColor: Colors.transparent,
+      elevation: 0,
+      centerTitle: true,
+    ),
+
+    cardTheme: CardThemeData(
+      color: Colors.white,
+      elevation: 4,
+      shadowColor: Colors.black12,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20),
+      ),
+    ),
+
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        elevation: 0,
+        minimumSize: const Size(double.infinity, 55),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(18),
+        ),
+      ),
+    ),
+
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
       fillColor: Colors.white,
