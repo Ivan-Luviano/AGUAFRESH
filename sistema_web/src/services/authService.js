@@ -4,10 +4,10 @@ import {
   signOut,
 } from "firebase/auth";
 
-export const login = async (email, password) => {
+export const loginAdmin = async (email, password) => {
   return await signInWithEmailAndPassword(auth, email, password);
 };
 
-export const logout = async () => {
+export const logoutAdmin = async () => {
   return await signOut(auth);
 };
